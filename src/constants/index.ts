@@ -11,13 +11,13 @@ import {
   nodejs,
   mongodb,
   git,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  aerotek,
+  astranis,
+  discable,
+  orcastra,
+  riemannsum,
   threejs,
+  personal,
 } from '../assets';
 
 export const navLinks = [
@@ -100,7 +100,7 @@ const experiences = [
   {
     title: 'Software Engineer',
     company_name: 'Working on personal projects',
-    icon: starbucks,
+    icon: personal,
     iconBg: '#383E56',
     date: 'March 2023 - Current',
     points: [
@@ -113,7 +113,7 @@ const experiences = [
   {
     title: 'Technical Recruiter',
     company_name: 'Astranis',
-    icon: tesla,
+    icon: astranis,
     iconBg: '#E6DEDD',
     date: 'May 2021 - Oct 2022',
     points: [
@@ -126,7 +126,7 @@ const experiences = [
   {
     title: 'Recruiter/Account Manager',
     company_name: 'Aerotek',
-    icon: shopify,
+    icon: aerotek,
     iconBg: '#383E56',
     date: 'Dec 2017 - Apr 2021',
     points: [
@@ -167,9 +167,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Disclone',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Full stack web application based off Discord. This was built using React, Redux, Ruby on Rails, and CSS3.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'rubyonrails',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'postgresql',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: discable,
+    source_code_link: 'https://github.com/camachoo1/Discable',
+  },
+  {
+    name: 'Orcastra',
+    description:
+      'A MERN stack project created to help new inventors post their ideas on a platform that allows others to provide feedback and potentially invest in their future',
     tags: [
       {
         name: 'react',
@@ -180,45 +201,24 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'express',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: orcastra,
+    source_code_link: 'https://github.com/camachoo1/Orcastra',
   },
   {
-    name: 'Job IT',
+    name: 'Riemann Sum',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'A data visualization project built primarily with vanilla JavaScript and DesmosAPI that allows users to input their own functions and visualize how to compute the area under a graph using the Riemann Sum.',
     tags: [
       {
-        name: 'react',
+        name: 'javascript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
+        name: 'desmosapi',
         color: 'green-text-gradient',
       },
       {
@@ -226,8 +226,8 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: riemannsum,
+    source_code_link: 'https://github.com/camachoo1/Riemann-Sum',
   },
 ];
 
