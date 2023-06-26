@@ -104,10 +104,10 @@ const experiences = [
     iconBg: '#383E56',
     date: 'March 2023 - Current',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Proficient in developing modern and responsive user interfaces using React and TypeScript, leveraging reusable components, hooks, and state management.',
+      'Experienced in building RESTful APIs with Express and utilizing MongoDB for efficient data storage and retrieval in personal projects.',
+      'Strong understanding of TypeScript for type-safe development, ensuring code reliability and easier maintenance.',
+      'Capable of working independently, handling project architecture, implementation, and deployment, while continuously learning and staying up-to-date with the latest trends and best practices in the JavaScript ecosystem.'
     ],
   },
   {
