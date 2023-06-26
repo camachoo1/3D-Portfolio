@@ -1,7 +1,5 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -13,9 +11,6 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
   starbucks,
   tesla,
   shopify,
@@ -103,11 +98,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
+    title: 'Software Engineer',
+    company_name: 'Working on personal projects',
     icon: starbucks,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'March 2023 - Current',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -116,44 +111,31 @@ const experiences = [
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
+    title: 'Technical Recruiter',
+    company_name: 'Astranis',
     icon: tesla,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'May 2021 - Oct 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Owned and led full cycle recruitment for the Environmental Test, Assembly Integration, and Test, and Production teams.',
+      'Developed streamlined recruiting processes such as approved scoring criteria for interviews, requirements for key roles, and facilitating meetings to discuss post onsite interviews which resulted in 75% success ratio across interview stages.',
+      'Facilitated weekly meetings with team leads and executive team to discuss weekly priorities and progress across each key role and forecasting.',
+      'Identified key job requirements, screen/interview candidates to understand strengths, and aim to match skills, passion, and career interests with specific organizational needs.'
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
+    title: 'Recruiter/Account Manager',
+    company_name: 'Aerotek',
     icon: shopify,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'Dec 2017 - Apr 2021',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Increased sales territories for both manufacturing and corporate services industries by 120% over 3 year period.',
+      'Conducted meetings with hiring managers to negotiate rates, contracts, salaries, and fully qualify each requisition based on clients needs.',
+      'Managed team of 4  recruiters and aided in professional development and training by providing detailed daily, weekly, and quarterly expectations.'
     ],
   },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
+  
 ];
 
 const testimonials = [

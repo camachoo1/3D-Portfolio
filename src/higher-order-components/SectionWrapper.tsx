@@ -3,7 +3,7 @@ import React from 'react';
 import { staggerContainer } from '../utils/motion';
 import { styles } from '../styles';
 
-const SectionWrapper = (Component: unknown, name: string) => {
+const SectionWrapper = (Component: React.FC, name: string) => {
   return function higherOrderComponent() {
     return (
       <motion.section
@@ -16,6 +16,8 @@ const SectionWrapper = (Component: unknown, name: string) => {
         <span className='hash-span' id={name}>
           &nbsp;
         </span>
+
+        <Component  />
       </motion.section>
     );
   };
