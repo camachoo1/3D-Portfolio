@@ -186,6 +186,7 @@ const projects = [
     ],
     image: discable,
     source_code_link: 'https://github.com/camachoo1/Discable',
+    live_link: 'https://discable-k8cm.onrender.com/',
   },
   {
     name: 'Orcastra',
@@ -207,6 +208,7 @@ const projects = [
     ],
     image: orcastra,
     source_code_link: 'https://github.com/camachoo1/Orcastra',
+    live_link: 'https://orcastra.onrender.com/',
   },
   {
     name: 'Riemann Sum',
@@ -228,6 +230,7 @@ const projects = [
     ],
     image: riemannsum,
     source_code_link: 'https://github.com/camachoo1/Riemann-Sum',
+    live_link: 'camachoo1.github.io/Riemann-Sum',
   },
 ];
 
