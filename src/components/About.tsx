@@ -1,18 +1,22 @@
-import React from 'react'
-import { Tilt } from 'react-tilt'
-import { motion } from 'framer-motion'
-import { styles } from '../styles'
-import { services } from '../constants'
-import { fadeIn, textVariant } from '../utils/motion'
-import { SectionWrapper } from '../higher-order-components'
+import React from 'react';
+import { Tilt } from 'react-tilt';
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
+import { services } from '../constants';
+import { fadeIn, textVariant } from '../utils/motion';
+import { SectionWrapper } from '../higher-order-components';
 
 interface ServiceCardProps {
   idx: number;
   icon: string;
-  title: string
+  title: string;
 }
 
-const ServiceCard: React.FC<ServiceCardProps> = ({ idx, icon, title }) => {
+const ServiceCard: React.FC<ServiceCardProps> = ({
+  idx,
+  icon,
+  title,
+}) => {
   return (
     <Tilt
       options={{
@@ -39,7 +43,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ idx, icon, title }) => {
       </motion.div>
     </Tilt>
   );
-}
+};
 
 const About = () => {
   return (
@@ -49,22 +53,32 @@ const About = () => {
         <h2 className={`${styles.sectionHeadText}`}>Overview</h2>
       </motion.div>
 
-      <motion.p variants={fadeIn()} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm Omar, a Software Engineer with a passion for dynamic and creative web development with a previous background in technical recruiting. I am someone that loves working on challenging problems and really seeking to understand how things work under the hood. Web development stands out to me because it allows me to design and develop my own applications from nothing and seeing it become something that can be used by anyone on the internet. I'm really passionate about coding, especially the backend side of web development! When I'm not working on my personal projects, you can find me out on the soccer field or restaurant-hopping to find my next favorite sushi and ramen spot.
+      <motion.p
+        variants={fadeIn()}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        I'm Omar, a Software Engineer with a passion for dynamic and
+        creative web development with a previous background in
+        technical recruiting. I am someone that loves working on
+        challenging problems and really seeking to understand how
+        things work under the hood. Web development stands out to me
+        because it allows me to design and develop my own applications
+        from nothing and seeing it become something that can be used
+        by anyone on the internet. I'm really passionate about coding,
+        especially the backend side of web development! When I'm not
+        working on my personal projects, you can find me out on the
+        soccer field or restaurant-hopping to find my next favorite
+        sushi and ramen spot.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {/* Map through the services and create a new card for each one */}
         {services.map((service, idx) => (
-          <ServiceCard
-            key={service.title}
-            idx={idx}
-            {...service}
-          />
+          <ServiceCard key={service.title} idx={idx} {...service} />
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(About, 'about')
+export default SectionWrapper(About, 'about');
