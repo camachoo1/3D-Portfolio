@@ -1,6 +1,6 @@
-import { useState, useRef } from 'react'
+import React, { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
-
+import emailjs from '@emailjs/browser'
 import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../higher-order-components'
@@ -16,9 +16,15 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false)
 
-  const handleChange = () => { }
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target
+    setForm({...form, [name]: value})
+  }
   
-  const handleSubmit = () => { }
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    setLoading(true)
+  }
   
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
