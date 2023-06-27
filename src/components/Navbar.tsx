@@ -12,7 +12,6 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-
       if (scrollTop > 100) {
         setScrolled(true);
       } else {
@@ -24,6 +23,7 @@ const Navbar = () => {
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
   return (
     <nav
       className={`${
@@ -59,7 +59,7 @@ const Navbar = () => {
                 active === link.title
                   ? 'text-white'
                   : 'text-secondary'
-              } hover:text-white text-[18px] dont-medium cursor-pointer`}
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
@@ -71,7 +71,7 @@ const Navbar = () => {
           <img
             src={toggle ? close : menu}
             alt='menu'
-            className='w-[28px] h-[28px] object-contain cursor-pointer'
+            className='w-[28px] h-[28px] object-contain'
             onClick={() => setToggle(!toggle)}
           />
           <div
@@ -83,11 +83,11 @@ const Navbar = () => {
               {navLinks.map((link) => (
                 <li
                   key={link.id}
-                  className={`${
+                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
                     active === link.title
                       ? 'text-white'
                       : 'text-secondary'
-                  } font-poppins font-medium cursor-pointer text-[16px]`}
+                  }`}
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(link.title);
