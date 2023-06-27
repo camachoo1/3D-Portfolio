@@ -24,19 +24,24 @@ To run the project locally, follow these steps:
 
 ## Folder Structure
 
+```bash
 3d-portfolio/
-├── src/ # Source code files
-│ ├── components/ # React components
-│ ├── assets/ # Static assets (images, fonts, etc.)
-│ ├── styles/ # CSS or SCSS styles
-│ ├── pages/ # Page components
-│ ├── utils/ # Utility functions or modules
-│ └── App.tsx # Main application component
-├── public/ # Public assets and HTML template
-├── .gitignore # Git ignore file
-├── package.json # Project configuration and dependencies
-├── tsconfig.json # TypeScript configuration
-└── README.md # Project README file
+├── src/                       # Source code files
+│ ├── components/              # React components
+│ ├── assets/                  # Static assets (images, fonts, etc.)
+│ ├── styles/                  # Default CSS styling
+│ ├── higher-order-components/ # Higher order React components to serve as wrappers
+│ ├── utils/                   # Utility functions or modules
+│ ├── main.tsx                 # Component that renders the app file / creates root element
+│ ├── declarations.d.ts        # Type declarations for image modules
+│ └── App.tsx                  # Main application component
+├── public/                    # Public assets and HTML template
+├── .gitignore                 # Git ignore file
+├── package.json               # Project configuration and dependencies
+├── tsconfig.json              # TypeScript configuration
+├── tailwindcss.config.ts      # TailwindCSS configuration
+└── README.md                  # Project README file
+```
 
 
 ## Dependencies
