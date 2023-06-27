@@ -18,7 +18,7 @@ This is a 3D portfolio project created using TypeScript, React, Vite, Three.js, 
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/3d-portfolio.git`
+1. Clone the repository: `git clone https://github.com/camachoo1/3d-portfolio.git`
 2. Navigate to the project directory: `cd 3d-portfolio`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm run dev`
