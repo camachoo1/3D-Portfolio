@@ -2,6 +2,8 @@
 
 This is a 3D portfolio project created using TypeScript, React, Vite, Three.js, and Email.js. It showcases a portfolio website with interactive 3D elements and the ability to send emails directly from the website.
 
+![portfolio-gif](https://github.com/camachoo1/3D-Portfolio/assets/116383442/09bcfbf8-541d-43a3-981f-e3d02646d781)
+
 ## Features
 
 - Interactive 3D elements using Three.js: The project utilizes the Three.js library to create and render 3D objects, allowing for an immersive and visually engaging experience.
