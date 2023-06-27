@@ -5,7 +5,6 @@ import { styles } from '../styles'
 import { SectionWrapper } from '../higher-order-components'
 import { experiences } from '../constants'
 import 'react-vertical-timeline-component/style.min.css'
-import { div } from 'three/examples/jsm/nodes/Nodes.js'
 import React from 'react'
 
 interface Experience {

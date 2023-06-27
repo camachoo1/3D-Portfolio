@@ -5,7 +5,6 @@ import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../higher-order-components'
 import { slideIn } from '../utils/motion'
-import { format } from 'path'
 
 
 const Contact = () => {

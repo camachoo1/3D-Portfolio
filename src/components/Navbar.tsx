@@ -1,13 +1,13 @@
-import React, {useEffect, useState} from 'react'
-import { Link } from 'react-router-dom'
-import { styles } from '../styles'
-import { navLinks } from '../constants'
-import {logo, menu, close} from '../assets'
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { styles } from '../styles';
+import { navLinks } from '../constants';
+import { logo, menu, close } from '../assets';
 
 const Navbar = () => {
-  const [active, setActive] = useState<string>('')
-  const [toggle, setToggle] = useState<boolean>(false)
-  const [scrolled, setScrolled] = useState<boolean>(false)
+  const [active, setActive] = useState<string>('');
+  const [toggle, setToggle] = useState<boolean>(false);
+  const [scrolled, setScrolled] = useState<boolean>(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,10 +23,14 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
 
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [])
+  }, []);
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${scrolled ? 'bg-primary' : 'bg-transparent'}`}
+      className={`${
+        styles.paddingX
+      } w-full flex items-center py-5 fixed top-0 z-20 ${
+        scrolled ? 'bg-primary' : 'bg-transparent'
+      }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
@@ -85,8 +89,8 @@ const Navbar = () => {
                       : 'text-secondary'
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
-                    setToggle(!toggle)
-                    setActive(link.title)
+                    setToggle(!toggle);
+                    setActive(link.title);
                   }}
                 >
                   <a href={`#${link.id}`}>{link.title}</a>
@@ -98,6 +102,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

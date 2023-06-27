@@ -4,7 +4,7 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 
 import CanvasLoader from '../Loader';
 interface ComputersProps {
-  isMobile: boolean
+  isMobile: boolean;
 }
 
 const Computers: React.FC<ComputersProps> = ({ isMobile }) => {
