@@ -15,10 +15,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915eff]'>Omar</span>
+            Hi, I'm <span className='text-[#915eff]'>Omar,</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I build interactive websites with TypeScript, React, Redux, Ruby on Rails, MongoDB, and Express.
+            I build interactive websites with TypeScript, React, Redux, Express, MongoDB, PostgresQL, and Ruby on Rails.
           </p>
         </div>
       </div>

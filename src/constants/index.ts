@@ -18,6 +18,8 @@ import {
   riemannsum,
   threejs,
   personal,
+  rails,
+  postgresql,
 } from '../assets';
 
 export const navLinks = [
@@ -93,7 +95,14 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  
+  {
+    name: 'Rails',
+    icon: rails,
+  },
+  {
+    name: 'PostgresQL',
+    icon: postgresql,
+  },
 ];
 
 const experiences = [

@@ -17,6 +17,8 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
+import rails from './tech/rails.png'
+import postgresql from './tech/postgresql.png'
 
 import personal from './company/personal.png';
 import aerotek from './company/aerotek.png';
@@ -45,6 +47,8 @@ export {
   tailwind,
   typescript,
   threejs,
+  rails,
+  postgresql,
   personal,
   aerotek,
   astranis,
