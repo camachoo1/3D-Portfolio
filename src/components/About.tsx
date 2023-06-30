@@ -12,6 +12,7 @@ interface ServiceCardProps {
   title: string;
 }
 
+
 const ServiceCard: React.FC<ServiceCardProps> = ({
   idx,
   icon,
