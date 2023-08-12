@@ -1,4 +1,4 @@
-# [3D Portfolio Project](omarcamacho.me)
+# [3D Portfolio Project](https://omarcamacho.me)
 
 This is a 3D portfolio project created using TypeScript, React, Vite, Three.js, and Email.js. It showcases a portfolio website with interactive 3D elements and the ability to send emails directly from the website.
 
